@@ -1,0 +1,40 @@
+<!DOCTYPE html><html class=''>
+<head><meta charset='UTF-8'>
+  <link rel="stylesheet" type="text/css" href="personal.css">
+<script src='prefixfree.min.js'></script>
+
+</head>
+<body>
+<div class="main">
+  <div class="sidebar">
+    <div class="circles"></div>
+    <div class="exitMenu">
+      <input type="checkbox" id="exitMenuCheckbox"/>
+      <label for="exitMenuCheckbox"></label>
+      <div class="finishButton">
+        <a href="javascript:void(0);" id="publish">Publish</a>
+        <a href="javascript:void(0);" id="save">Save Draft</a>
+        <a href="javascript:void(0);" id="delete">Delete Draft</a>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="textEditing">
+      <input type="checkbox" id="bold"><label for="bold"><span class="fontawesome-bold"></span></label></input>
+      <input type="checkbox" id="italic"><label for="italic"><span class="fontawesome-italic"></span></label></input>
+      <input type="checkbox" id="underline"><label for="underline"><span class="fontawesome-underline"></span></label></input>
+      <input type="radio" name="textStyle" id="left" checked><label for="left"><span class="fontawesome-align-left"></span></label></input>
+      <input type="radio" name="textStyle" id="center"><label for="center"><span class="fontawesome-align-center"></span></label></input>
+      <input type="radio" name="textStyle" id="right"><label for="right"><span class="fontawesome-align-right"></span></label></input>
+      <input type="radio" name="textStyle" id="justify"><label for="justify"><span class="fontawesome-align-justify"></span></label></input>
+      <input type="file" id="image"><label for="image"><span class="fontawesome-picture"></span></label></input>
+      <input type="checkbox" id="attachment"><label for="attachment"><span class="fontawesome-link"></span></label></input>
+      <input type="" id="link"><label for="link" id="linkLable"><span id=""></span></label></input>
+      <input type="checkbox" id="code"><label for="code"><span class="fontawesome-quote-right"></span></label></input>
+    </div>
+  <p id="contentText" contenteditable="true">Enter text here</p>
+  </div>
+</div>
+<script src='jquery-1.11.0.min.js'></script>
+<script src='person.js'></script>
+</body></html>
